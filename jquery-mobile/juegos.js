@@ -85,6 +85,8 @@ document.getElementById("resultado").innerHTML = "Primero llena todos los campos
 			document.getElementById("felicitación").innerHTML = "¡CORRECTO!"
 				}
 			else {
+			document.getElementById("felicitación").innerHTML = ""
+
 				}
 		}
 	}
